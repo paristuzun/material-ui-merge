@@ -43,6 +43,7 @@ module.exports = {
         name: "Card",
         include: [
           "src/Card/Card.js",
+          "src/TravelCard/TravelCard.js",
           "src/CardActions/CardActions.js",
           "src/CardContent/CardContent.js",
           "src/CardHeader/CardHeader.js",
