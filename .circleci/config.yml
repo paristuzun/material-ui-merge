@@ -12,4 +12,4 @@ jobs:
           command: npm install
       - run:
           name: 'Push to UXPin'
-          command: npm run push
+          command: ./node_modules/.bin/uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js
