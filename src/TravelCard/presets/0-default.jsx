@@ -38,5 +38,5 @@ export default (
         <Icon uxpId="1.4.2.1">share</Icon>
       </IconButton>
     </CardActions>
-  </Card>
+  </TravelCard>
 );
