@@ -9,7 +9,6 @@ import Typography from "../../Typography/Typography";
 import Icon from "../../Icon/Icon";
 import IconButton from "../../IconButton/IconButton";
 import CardM from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
 
 export default (
   <TravelCard uxpId="travelcard">
