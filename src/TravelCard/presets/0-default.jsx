@@ -4,13 +4,11 @@ import CardHeader from "../../CardHeader/CardHeader";
 import CardMedia from "../../CardMedia/CardMedia";
 import CardContent from "../../CardContent/CardContent";
 import CardActions from "../../CardActions/CardActions";
-import Avatar from "../../Avatar/Avatar";
 import Typography from "../../Typography/Typography";
 import Icon from "../../Icon/Icon";
 import IconButton from "../../IconButton/IconButton";
 import Image from "../../Image/Image";
-import CardM from '@material-ui/core/Card';
-import Button from "../Button";
+import Button from "../../Button/Button";
 
 export default (
   <TravelCard uxpId="travelcard">
@@ -22,33 +20,37 @@ export default (
      <CardMedia uxpId="1.1">
       <Image
        src="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
-       alt="Gdynia"
+       alt="Savannah"
        uxpId="1.1"
        width="100%"
        height="100%"
        objectFit="cover"
     />
     </CardMedia>
-    <CardHeader
-      uxpId="1.2"
-      title="Savannah"
-      price="$500"
-      rating="4.8/5"
+ 
+    <CardHeader 
+       uxpId="1.2"
+       title="Savannah"
+       subheader="$500  |  4.8/5"
     />
+
     <CardContent uxpId="1.3">
-      <Typography component="p" uxpId="1.3.1">
+      <Typography component="p" uxpId="1.3.3">
         This impressive paella is a perfect party dish and a fun meal to cook
         together with your guests. Add 1 cup of frozen peas along with the
         mussels, if you like.
       </Typography>
     </CardContent>
+
     <Button
-    uxpId="action1"
-    size="medium"
-    variant="outlined"
-    color="primary"
+      uxpId="action1"
+      size="medium"
+      variant="outlined"
+      color="primary"
+      fullwidth
     >
-    Book Now
+      Book Now
   </Button>
+  
   </TravelCard>
 );
