@@ -7,12 +7,14 @@ import CardActions from "../../CardActions/CardActions";
 import Avatar from "../../Avatar/Avatar";
 import Typography from "../../Typography/Typography";
 import Icon from "../../Icon/Icon";
+import IconButton from "../../IconButton/IconButton";
 import CardM from '@material-ui/core/Card';
 
 export default (
   <TravelCard uxpId="travelcard">
     <CardMedia uxpId="1.1"
       image="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
+      style={{"min-height": "100%"}}
     />
      <CardActions disableActionSpacing uxpId="1.4">
       <IconButton aria-label="Add to favorites" uxpId="1.4.1">
