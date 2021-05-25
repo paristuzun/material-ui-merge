@@ -8,21 +8,26 @@ import Avatar from "../../Avatar/Avatar";
 import Typography from "../../Typography/Typography";
 import Icon from "../../Icon/Icon";
 import IconButton from "../../IconButton/IconButton";
+import Image from "../../Image/Image";
 import CardM from '@material-ui/core/Card';
 
 export default (
   <TravelCard uxpId="travelcard">
-    <CardMedia uxpId="1.1"
-      image="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
-      width="100%"
-      height="100%"
-      objectFit="cover"
-    />
      <CardActions disableActionSpacing uxpId="1.4">
       <IconButton aria-label="Add to favorites" uxpId="1.4.1">
         <Icon uxpId="1.4.1.1">favorite</Icon>
       </IconButton>
     </CardActions>
+     <CardMedia uxpId="1.1">
+      <Image
+       src="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
+       alt="Gdynia"
+       uxpId="1.1"
+       width="100%"
+       height="100%"
+       objectFit="cover"
+    />
+    </CardMedia>
     <CardHeader
       uxpId="1.2"
       avatar={<Avatar aria-label="Destination" uxpId="1.1.1">R</Avatar>}
