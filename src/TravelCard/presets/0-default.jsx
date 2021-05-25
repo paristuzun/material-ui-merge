@@ -10,6 +10,7 @@ import Icon from "../../Icon/Icon";
 import IconButton from "../../IconButton/IconButton";
 import Image from "../../Image/Image";
 import CardM from '@material-ui/core/Card';
+import Button from "../Button";
 
 export default (
   <TravelCard uxpId="travelcard">
@@ -30,7 +31,6 @@ export default (
     </CardMedia>
     <CardHeader
       uxpId="1.2"
-      avatar={<Avatar aria-label="Destination" uxpId="1.1.1">R</Avatar>}
       title="Savannah"
       price="$500"
       rating="4.8/5"
@@ -42,5 +42,13 @@ export default (
         mussels, if you like.
       </Typography>
     </CardContent>
+    <Button
+    uxpId="action1"
+    size="medium"
+    variant="outlined"
+    color="primary"
+    >
+    Book Now
+  </Button>
   </TravelCard>
 );
