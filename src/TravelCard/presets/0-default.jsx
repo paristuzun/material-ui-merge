@@ -14,7 +14,9 @@ export default (
   <TravelCard uxpId="travelcard">
     <CardMedia uxpId="1.1"
       image="https://www.platingsandpairings.com/wp-content/uploads/2016/01/Paella-1-Square.jpg"
-      style={{"min-height": "100%"}}
+      width="100%"
+      height="100%"
+      objectFit="cover"
     />
      <CardActions disableActionSpacing uxpId="1.4">
       <IconButton aria-label="Add to favorites" uxpId="1.4.1">
