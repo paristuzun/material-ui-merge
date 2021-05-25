@@ -47,10 +47,9 @@ export default (
       size="medium"
       variant="outlined"
       color="primary"
-      fullwidth
     >
       Book Now
   </Button>
-  
+
   </TravelCard>
 );
